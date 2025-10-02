@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bella - Lifestyle</title>
+    <title>Bella - Fashion</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -20,46 +20,38 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <div class="hero-section">
-        <img src="images/lifestyle.jpg" alt="Beautiful lifestyle image" class="hero-image">
-        <div class="hero-text">
-            <h1>Live Your Best Life ✨</h1>
-            <p>Your guide to a balanced and beautiful lifestyle.</p>
-        </div>
-    </div>
-
     <div class="container">
-        <aside class="sidebar">
-            <h2>✨ Trending Now</h2>
-            <div class="sidebar-featured-image">
-                <img src="images/trending.jpg" alt="Trending fashion">
-            </div>
-            <ul>
-                <li><a href="#summer-fashion"><i class="fas fa-sun"></i> Summer Fashion Tips</a></li>
-                <li><a href="#skincare"><i class="fas fa-leaf"></i> Natural Skincare</a></li>
-                <li><a href="#wellness"><i class="fas fa-heart"></i> Wellness Guide</a></li>
-                <li><a href="#makeup"><i class="fas fa-magic"></i> Makeup Tutorials</a></li>
-            </ul>
-        </aside>
-
         <main class="content">
-            <h1>Lifestyle & Wellness</h1>
-            <p>Explore tips and inspiration for a healthy, happy, and stylish life. From home decor to wellness, we've got you covered.</p>
+            <h1>Fashion Collection</h1>
+            <p>Explore our curated fashion collection for every season.</p>
 
-            <section class="featured">
-                <h2><i class="fas fa-star"></i> Featured Articles</h2>
-                <div class="feature-grid">
-                    <div class="feature-item">
-                        <img src="images/wellness.jpg" alt="Wellness Guide">
-                        <h3>🌿 Wellness Guide</h3>
-                        <p>Discover tips for a balanced and healthy lifestyle.</p>
-                    </div>
-                    <div class="feature-item">
-                        <img src="images/style-guide.jpg" alt="Home Decor">
-                        <h3>🏡 Home Decor Ideas</h3>
-                        <p>Transform your space with our stylish and simple decor tips.</p>
-                    </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="summer">Summer</button>
+                <button class="filter-btn" data-category="winter">Winter</button>
+                <button class="filter-btn" data-category="material">By Material</button>
+            </div>
+
+            <section class="product-grid">
+                <div class="product-item summer">
+                    <img src="images/fashion1.jpg" alt="Summer Dress">
+                    <h3>Summer Dress</h3>
+                    <p>Light and breezy for sunny days.</p>
+                </div>
+                <div class="product-item winter">
+                    <img src="images/fashion2.jpg" alt="Winter Coat">
+                    <h3>Winter Coat</h3>
+                    <p>Stay warm and stylish.</p>
+                </div>
+                <div class="product-item material">
+                    <img src="images/fashion3.jpg" alt="Cotton Shirt">
+                    <h3>Cotton Shirt</h3>
+                    <p>Comfortable and breathable.</p>
+                </div>
+                <div class="product-item summer">
+                    <img src="images/fashion4.jpg" alt="Sandals">
+                    <h3>Sandals</h3>
+                    <p>Perfect for a walk on the beach.</p>
                 </div>
             </section>
         </main>
